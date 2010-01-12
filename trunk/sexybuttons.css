@@ -93,11 +93,13 @@
 	/* _padding-right: 0;					Or just hide icons from the undeserving IE6 */
 }
 
-.sexybutton:hover span {
+.sexybutton:hover span,
+.sexybutton:focus span {
 	background-position: right center;
 }
 
-.sexybutton:hover span span {
+.sexybutton:hover span span,
+.sexybutton:focus span span {
 	background-position: left center;
 }
 
@@ -153,7 +155,9 @@
 }
 	
 .sexybutton:hover,
-.sexybutton.sexysilver:hover {
+.sexybutton:focus,
+.sexybutton.sexysilver:hover,
+.sexybutton.sexysilver:focus {
 	color: #333;
 }
 	
@@ -170,7 +174,8 @@
 /* Orange Button Skin */
 
 .sexybutton.sexyorange,
-.sexybutton.sexyorange:hover {
+.sexybutton.sexyorange:hover,
+.sexybutton.sexyorange:focus {
 	color: white;
 }
 	
@@ -185,7 +190,8 @@
 /* Yellow Button Skin */
 
 .sexybutton.sexyyellow,
-.sexybutton.sexyyellow:hover {
+.sexybutton.sexyyellow:hover,
+.sexybutton.sexyyellow:focus {
 	color: #994800;
 }
 	
@@ -245,7 +251,8 @@
 	background: transparent;
 }
 
-.sexybutton.sexysimple:hover {
+.sexybutton.sexysimple:hover,
+.sexybutton.sexysimple:focus {
 	background-position: 0 -50px; 
 	color: #fff;
 }
