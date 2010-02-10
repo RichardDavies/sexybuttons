@@ -13,7 +13,7 @@
  * 	Richard@richarddavies.us
  * 
  * VERSION:
- * 	1.0.1
+ * 	1.0.2
  * 
  * LICENSE:
  * 	Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
@@ -142,6 +142,9 @@
 
 /*
  * Button Skins
+ * 
+ * .PNG background images with alpha transparency are also supplied if you'd rather use them instead of the 
+ * default .GIF images. (Just beware of IE6's lack of support.) 
  * 
  * Additional skins can be added below. The images/skins/ButtonTemplate.psd can be used to create new skins.
  * Prefix the skin name with "sexy" to avoid any potential conflicts with other class names. 
