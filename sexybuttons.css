@@ -322,47 +322,47 @@
 /* Silk Icons - http://www.famfamfam.com/lab/icons/silk/ */
 /* (Obviously not all Silk icons are defined here. Feel free to define any other icons that you may need.) */
 
-.sexybutton span.ok				{ background-image: url(images/icons/silk/tick.png); }
-.sexybutton span.cancel			{ background-image: url(images/icons/silk/cross.png); }
-.sexybutton span.add				{ background-image: url(images/icons/silk/add.png); }
-.sexybutton span.delete			{ background-image: url(images/icons/silk/delete.png); }
-.sexybutton span.download		{ background-image: url(images/icons/silk/arrow_down.png); }
-.sexybutton span.download2		{ background-image: url(images/icons/silk/package_down.png); }
-.sexybutton span.upload			{ background-image: url(images/icons/silk/arrow_up.png); }
-.sexybutton span.search			{ background-image: url(images/icons/silk/magnifier.png); }
-.sexybutton span.find			{ background-image: url(images/icons/silk/find.png); }
-.sexybutton span.first			{ background-image: url(images/icons/silk/resultset_first.png); }
-.sexybutton span.prev			{ background-image: url(images/icons/silk/resultset_previous.png); }
-.sexybutton span.next			{ background-image: url(images/icons/silk/resultset_next.png); }
-.sexybutton span.last			{ background-image: url(images/icons/silk/resultset_last.png); }
-.sexybutton span.play			{ background-image: url(images/icons/silk/play_blue.png); }
-.sexybutton span.pause			{ background-image: url(images/icons/silk/pause_blue.png); }
-.sexybutton span.rewind			{ background-image: url(images/icons/silk/rewind_blue.png); }
-.sexybutton span.forward		{ background-image: url(images/icons/silk/forward_blue.png); }
-.sexybutton span.stop			{ background-image: url(images/icons/silk/stop_blue.png); }
-.sexybutton span.reload			{ background-image: url(images/icons/silk/reload.png); }
-.sexybutton span.sync			{ background-image: url(images/icons/silk/arrow_refresh.png); }
-.sexybutton span.save			{ background-image: url(images/icons/silk/disk.png); }
-.sexybutton span.email			{ background-image: url(images/icons/silk/email.png); }
-.sexybutton span.print			{ background-image: url(images/icons/silk/printer.png); }
-.sexybutton span.heart			{ background-image: url(images/icons/silk/heart.png); }
-.sexybutton span.like			{ background-image: url(images/icons/silk/thumb_up.png); }
-.sexybutton span.dislike		{ background-image: url(images/icons/silk/thumb_down.png); }
-.sexybutton span.accept			{ background-image: url(images/icons/silk/accept.png); }
-.sexybutton span.decline		{ background-image: url(images/icons/silk/decline.png); }
-.sexybutton span.help			{ background-image: url(images/icons/silk/help.png); }
-.sexybutton span.home			{ background-image: url(images/icons/silk/house.png); }
-.sexybutton span.info			{ background-image: url(images/icons/silk/information.png); }
-.sexybutton span.cut				{ background-image: url(images/icons/silk/cut.png); }
-.sexybutton span.copy			{ background-image: url(images/icons/silk/page_white_copy.png); }
-.sexybutton span.paste			{ background-image: url(images/icons/silk/paste_plain.png); }
-.sexybutton span.erase			{ background-image: url(images/icons/silk/erase.png); }
-.sexybutton span.undo			{ background-image: url(images/icons/silk/arrow_undo.png); }
-.sexybutton span.redo			{ background-image: url(images/icons/silk/arrow_redo.png); }
-.sexybutton span.edit			{ background-image: url(images/icons/silk/pencil.png); }
-.sexybutton span.calendar		{ background-image: url(images/icons/silk/date.png); }
-.sexybutton span.user			{ background-image: url(images/icons/silk/user.png); }
-.sexybutton span.settings		{ background-image: url(images/icons/silk/cog.png); }
-.sexybutton span.cart			{ background-image: url(images/icons/silk/cart.png); }
-.sexybutton span.wand			{ background-image: url(images/icons/silk/wand.png); }
-.sexybutton span.wrench			{ background-image: url(images/icons/silk/wrench.png); }
+.sexybutton span.ok				{ background-image: url(images/icons/silk/tick.png) !important; }
+.sexybutton span.cancel			{ background-image: url(images/icons/silk/cross.png) !important; }
+.sexybutton span.add				{ background-image: url(images/icons/silk/add.png) !important; }
+.sexybutton span.delete			{ background-image: url(images/icons/silk/delete.png) !important; }
+.sexybutton span.download		{ background-image: url(images/icons/silk/arrow_down.png) !important; }
+.sexybutton span.download2		{ background-image: url(images/icons/silk/package_down.png) !important; }
+.sexybutton span.upload			{ background-image: url(images/icons/silk/arrow_up.png) !important; }
+.sexybutton span.search			{ background-image: url(images/icons/silk/magnifier.png) !important; }
+.sexybutton span.find			{ background-image: url(images/icons/silk/find.png) !important; }
+.sexybutton span.first			{ background-image: url(images/icons/silk/resultset_first.png) !important; }
+.sexybutton span.prev			{ background-image: url(images/icons/silk/resultset_previous.png) !important; }
+.sexybutton span.next			{ background-image: url(images/icons/silk/resultset_next.png) !important; }
+.sexybutton span.last			{ background-image: url(images/icons/silk/resultset_last.png) !important; }
+.sexybutton span.play			{ background-image: url(images/icons/silk/play_blue.png) !important; }
+.sexybutton span.pause			{ background-image: url(images/icons/silk/pause_blue.png) !important; }
+.sexybutton span.rewind			{ background-image: url(images/icons/silk/rewind_blue.png) !important; }
+.sexybutton span.forward		{ background-image: url(images/icons/silk/forward_blue.png) !important; }
+.sexybutton span.stop			{ background-image: url(images/icons/silk/stop_blue.png) !important; }
+.sexybutton span.reload			{ background-image: url(images/icons/silk/reload.png) !important; }
+.sexybutton span.sync			{ background-image: url(images/icons/silk/arrow_refresh.png) !important; }
+.sexybutton span.save			{ background-image: url(images/icons/silk/disk.png) !important; }
+.sexybutton span.email			{ background-image: url(images/icons/silk/email.png) !important; }
+.sexybutton span.print			{ background-image: url(images/icons/silk/printer.png) !important; }
+.sexybutton span.heart			{ background-image: url(images/icons/silk/heart.png) !important; }
+.sexybutton span.like			{ background-image: url(images/icons/silk/thumb_up.png) !important; }
+.sexybutton span.dislike		{ background-image: url(images/icons/silk/thumb_down.png) !important; }
+.sexybutton span.accept			{ background-image: url(images/icons/silk/accept.png) !important; }
+.sexybutton span.decline		{ background-image: url(images/icons/silk/decline.png) !important; }
+.sexybutton span.help			{ background-image: url(images/icons/silk/help.png) !important; }
+.sexybutton span.home			{ background-image: url(images/icons/silk/house.png) !important; }
+.sexybutton span.info			{ background-image: url(images/icons/silk/information.png) !important; }
+.sexybutton span.cut				{ background-image: url(images/icons/silk/cut.png) !important; }
+.sexybutton span.copy			{ background-image: url(images/icons/silk/page_white_copy.png) !important; }
+.sexybutton span.paste			{ background-image: url(images/icons/silk/paste_plain.png) !important; }
+.sexybutton span.erase			{ background-image: url(images/icons/silk/erase.png) !important; }
+.sexybutton span.undo			{ background-image: url(images/icons/silk/arrow_undo.png) !important; }
+.sexybutton span.redo			{ background-image: url(images/icons/silk/arrow_redo.png) !important; }
+.sexybutton span.edit			{ background-image: url(images/icons/silk/pencil.png) !important; }
+.sexybutton span.calendar		{ background-image: url(images/icons/silk/date.png) !important; }
+.sexybutton span.user			{ background-image: url(images/icons/silk/user.png) !important; }
+.sexybutton span.settings		{ background-image: url(images/icons/silk/cog.png) !important; }
+.sexybutton span.cart			{ background-image: url(images/icons/silk/cart.png) !important; }
+.sexybutton span.wand			{ background-image: url(images/icons/silk/wand.png) !important; }
+.sexybutton span.wrench			{ background-image: url(images/icons/silk/wrench.png) !important; }
