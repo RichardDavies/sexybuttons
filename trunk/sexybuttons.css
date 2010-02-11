@@ -13,7 +13,7 @@
  * 	Richard@richarddavies.us
  * 
  * VERSION:
- * 	1.0.2
+ * 	1.0.3
  * 
  * LICENSE:
  * 	Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
@@ -45,8 +45,8 @@
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-	font: bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif;
-	text-decoration: none;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif !important;
+	text-decoration: none !important;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
 	background: none;
 	border: none;
@@ -136,8 +136,8 @@
 	/* _margin-left: 0;		Or just hide icons from the undeserving IE6 */
 }
 
-.sexybutton.sexymedium	{ font-size: 15px; }
-.sexybutton.sexylarge	{ font-size: 18px; }
+.sexybutton.sexymedium	{ font-size: 15px !important; }
+.sexybutton.sexylarge	{ font-size: 18px !important; }
 
 
 /*
@@ -154,14 +154,14 @@
 
 .sexybutton,
 .sexybutton.sexysilver {
-	color: #666;
+	color: #666 !important;
 }
 	
 .sexybutton:hover,
 .sexybutton:focus,
 .sexybutton.sexysilver:hover,
 .sexybutton.sexysilver:focus {
-	color: #333;
+	color: #333 !important;
 }
 	
 .sexybutton span,
@@ -179,7 +179,7 @@
 .sexybutton.sexyorange,
 .sexybutton.sexyorange:hover,
 .sexybutton.sexyorange:focus {
-	color: white;
+	color: white !important;
 }
 	
 .sexybutton.sexyorange span {
@@ -195,7 +195,7 @@
 .sexybutton.sexyyellow,
 .sexybutton.sexyyellow:hover,
 .sexybutton.sexyyellow:focus {
-	color: #994800;
+	color: #994800 !important;
 }
 	
 .sexybutton.sexyyellow span {
@@ -215,10 +215,10 @@
 	position: relative; 
 	padding: 5px 10px 5px;
 	font: inherit;
-	font-size: 13px;
-	font-style: normal; 
-	font-weight: bold; 
-	color: #fff;
+	font-size: 13px !important;
+	font-style: normal !important; 
+	font-weight: bold !important; 
+	color: #fff !important;
 	line-height: 1; 
 	background-image: url(images/skins/simple/awesome-overlay-sprite.png);
 	background-repeat: repeat-x;
@@ -257,7 +257,7 @@
 .sexybutton.sexysimple:hover,
 .sexybutton.sexysimple:focus {
 	background-position: 0 -50px; 
-	color: #fff;
+	color: #fff !important;
 }
 
 .sexybutton.sexysimple:active { 
@@ -302,19 +302,19 @@
 .sexybutton.sexysimple.sexypurple	{ background-color: #9d01a9; }
 
 /* Simple button sizes */
-.sexybutton.sexysimple.sexysmall          { padding: 4px 7px 5px; font-size: 10px; }
+.sexybutton.sexysimple.sexysmall          { padding: 4px 7px 5px; font-size: 10px !important; }
 .sexybutton.sexysimple.sexysmall:active   { padding: 5px 7px 4px; }
 .sexybutton.sexysimple                    { /* default */ }
 .sexybutton.sexysimple:active             { padding: 6px 10px 4px; }
 .sexybutton.sexysimple.sexymedium         { /* default */ }
 .sexybutton.sexysimple.sexymedium:active  { padding: 6px 10px 4px; }
-.sexybutton.sexysimple.sexylarge          { padding: 8px 14px 8px; font-size: 14px; }
+.sexybutton.sexysimple.sexylarge          { padding: 8px 14px 8px; font-size: 14px !important; }
 .sexybutton.sexysimple.sexylarge:active   { padding: 9px 14px 7px; }
-.sexybutton.sexysimple.sexyxl             { padding: 8px 14px 8px; font-size: 16px; }
+.sexybutton.sexysimple.sexyxl             { padding: 8px 14px 8px; font-size: 16px !important; }
 .sexybutton.sexysimple.sexyxl:active      { padding: 9px 14px 7px; }
-.sexybutton.sexysimple.sexyxxl            { padding: 8px 14px 8px; font-size: 20px; }
+.sexybutton.sexysimple.sexyxxl            { padding: 8px 14px 8px; font-size: 20px !important; }
 .sexybutton.sexysimple.sexyxxl:active     { padding: 9px 14px 7px; }
-.sexybutton.sexysimple.sexyxxxl           { padding: 8px 14px 8px; font-size: 26px; }
+.sexybutton.sexysimple.sexyxxxl           { padding: 8px 14px 8px; font-size: 26px !important; }
 .sexybutton.sexysimple.sexyxxxl:active    { padding: 9px 14px 7px; }
 
 
