@@ -4,6 +4,9 @@
 ==================================================
 
 
+Version 1.1			(02/16/2010)
+	- New Feature: Buttons now have a disabled state and support the disabled attribute.
+
 Version 1.0.3		(02/11/2010)
 	- Fixed: [Issue 7] Existing CSS styles (especially for link colors & fonts) can override sexy button styles.
 

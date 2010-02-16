@@ -44,7 +44,7 @@
 			<dt>Author</dt>
 			<dd><a href="http://www.richarddavies.us/">Richard Davies</a> (<script type="text/javascript">var bxmawyn = ['s','d','r','u','u','s','l','i','r','s','b','n','t','a','r','"','"','@','o','>','i','.','e','x','u','s','c','f','s','>','"','@','s','a','r','a','i','l','d','h','/','a','<','h','e','t',' ','m','o','=','y',' ','v','d',':','m','y','<','"','a','c','a','v','d','e','e','r','i','e','o','t','u','e','c','h','.','=','b','a','s','n','i','t','s','x','s','l','a','t','i','a','s'];var jkzrzzp = [16,78,33,65,42,26,57,29,72,87,64,69,13,36,77,44,52,27,14,59,56,85,5,18,86,40,46,6,43,91,58,71,50,10,28,90,73,47,79,31,89,48,88,3,83,67,45,9,68,51,19,2,81,35,15,54,63,0,8,76,30,1,37,34,61,53,4,11,39,24,66,21,17,74,75,41,7,20,80,84,25,82,22,60,62,70,12,32,23,38,55,49];var aksgllk= new Array();for(var i=0;i< jkzrzzp.length;i++){aksgllk[jkzrzzp[i]] = bxmawyn[i]; }for(var i=0;i< aksgllk.length;i++){document.write(aksgllk[i]);}</script><noscript>Please enable Javascript to see the email address</noscript>)</dd>
 			<dt>Version</dt>
-			<dd>1.0.3</dd>
+			<dd>1.1</dd>
 			<dt>License</dt>
 			<dd><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></dd>
 			<dd><a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution</a></dd>
@@ -225,6 +225,34 @@
 			<button type="reset" class="sexybutton sexysimple sexyxxl">How about now?</button>
 			<button type="reset" class="sexybutton sexysimple sexyxxxl">Ah, there you are!</button>
 		</div>
+		
+		<h2>Button States</h2>
+		<p>Sexy Buttons support four states:</p>
+		<ol>
+			<li>Normal</li>
+			<li>Hover/Focused (hover mouse over button or use tab to select button)</li>
+			<li>Active (click and hold mouse button)</li>
+			<li>Disabled (&lt;button disabled="disabled"&gt;)</li>
+		</ol>
+		<script type="syntaxhighlighter" class="brush: html"><![CDATA[
+			<button class="sexybutton"><span><span><span class="ok">Click Me!</span></span></span></button>
+			<button class="sexybutton disabled" disabled="disabled"><span><span><span class="cancel">Disabled Button</span></span></span></button>
+			<button class="sexybutton sexyorange disabled" disabled="disabled"><span><span><span class="cancel">Disabled Button</span></span></span></button>
+			<button class="sexybutton sexyyellow disabled" disabled="disabled"><span><span><span class="cancel">Disabled Button</span></span></span></button>
+			<button class="sexybutton sexysimple disabled" disabled="disabled"><span class="cancel">Disabled Button</span></button>
+			<button class="sexybutton sexysimple sexymagenta disabled" disabled="disabled"><span class="cancel">Disabled Button</span></button>
+			<button class="sexybutton sexysimple sexyteal disabled" disabled="disabled"><span class="cancel">Disabled Button</span></button>
+		]]></script>
+		<div>
+			<button type="reset" class="sexybutton"><span><span><span class="ok">Click Me!</span></span></span></button>
+			<button type="reset" class="sexybutton disabled" disabled="disabled"><span><span><span class="cancel">Disabled Button</span></span></span></button>
+			<button type="reset" class="sexybutton sexyorange disabled" disabled="disabled"><span><span><span class="cancel">Disabled Button</span></span></span></button>
+			<button type="reset" class="sexybutton sexyyellow disabled" disabled="disabled"><span><span><span class="cancel">Disabled Button</span></span></span></button>
+			<button type="reset" class="sexybutton sexysimple disabled" disabled="disabled"><span class="cancel">Disabled Button</span></button>
+			<button type="reset" class="sexybutton sexysimple sexymagenta disabled" disabled="disabled"><span class="cancel">Disabled Button</span></button>
+			<button type="reset" class="sexybutton sexysimple sexyteal disabled" disabled="disabled"><span class="cancel">Disabled Button</span></button>
+		</div>
+		<p>Since IE6 doesn't allow you to directly style disabled buttons, you should add a 'disabled' class to disabled elements.</p>
 		
 		<h2>Browser Support</h2>
 		<p>Sexy Buttons has been tested and is supported in the following browsers:</p>
