@@ -13,7 +13,7 @@
  * 	Richard@richarddavies.us
  * 
  * VERSION:
- * 	1.0.3
+ * 	1.1
  * 
  * LICENSE:
  * 	Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
@@ -93,29 +93,61 @@
 	/* _padding-right: 0;					Or just hide icons from the undeserving IE6 */
 }
 
+.sexybutton[disabled],
+.sexybutton[disabled]:hover,
+.sexybutton[disabled]:focus,
+.sexybutton[disabled]:active,
+.sexybutton.disabled,
+.sexybutton.disabled:hover,
+.sexybutton.disabled:focus,
+.sexybutton.disabled:active {
+	color: #333 !important;
+	cursor: inherit;
+	text-shadow: none; 
+	opacity: 0.33;
+}
+
 .sexybutton:hover span,
 .sexybutton:focus span {
-	background-position: right center;
+	background-position: 100% -24px;
 }
 
 .sexybutton:hover span span,
 .sexybutton:focus span span {
-	background-position: left center;
+	background-position: 0% -24px;
 }
 
 .sexybutton:active span {
-	background-position: right bottom;
+	background-position: 100% -48px;
 }
 
 .sexybutton:active span span {
-	background-position: left bottom;
+	background-position: 0% -48px;
 }
 
-.sexybutton:active span span span {
+.sexybutton[disabled] span,
+.sexybutton.disabled span {
+	background-position: 100% -72px;
+}
+
+.sexybutton[disabled] span span,
+.sexybutton.disabled span span {
+	background-position: 0% -72px;
+}
+
+.sexybutton:hover span span span,
+.sexybutton:focus span span span,
+.sexybutton:active span span span,
+.sexybutton[disabled] span span span,
+.sexybutton.disabled span span span {
 	background-position: left center;
 }
 
-.sexybutton:active span span span.after {
+.sexybutton:hover span span span.after,
+.sexybutton:focus span span span.after,
+.sexybutton:active span span span.after,
+.sexybutton[disabled] span span span.after,
+.sexybutton.disabled span span span.after {
 	background-position: right center;
 }
 
@@ -180,6 +212,17 @@
 .sexybutton.sexyorange:hover,
 .sexybutton.sexyorange:focus {
 	color: white !important;
+}
+	
+.sexybutton.sexyorange[disabled],
+.sexybutton.sexyorange[disabled]:hover,
+.sexybutton.sexyorange[disabled]:active,
+.sexybutton.sexyorange[disabled]:focus,
+.sexybutton.sexyorange.disabled,
+.sexybutton.sexyorange.disabled:hover,
+.sexybutton.sexyorange.disabled:active,
+.sexybutton.sexyorange.disabled:focus {
+	color: #333 !important;
 }
 	
 .sexybutton.sexyorange span {
@@ -261,7 +304,7 @@
 }
 
 .sexybutton.sexysimple:active { 
-	background-position: 0 100%; 
+	background-position: 0 -100px; 
 	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.7); 
 	/* Unfortunately, Safari doesn't support inset yet */
 	-webkit-box-shadow: none;
@@ -270,6 +313,23 @@
 	border-bottom: 0\9;
 	border-top: 1px solid #666\9;
 }
+
+.sexybutton.sexysimple[disabled], 
+.sexybutton.sexysimple.disabled { 
+	background-position: 0 -150px; 
+	color: #333 !important;
+	text-shadow: none; 
+}
+
+.sexybutton.sexysimple[disabled]:hover,
+.sexybutton.sexysimple[disabled]:focus,
+.sexybutton.sexysimple[disabled]:active,
+.sexybutton.sexysimple.disabled:hover,
+.sexybutton.sexysimple.disabled:focus,
+.sexybutton.sexysimple.disabled:active {
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+} 
 
 .sexybutton.sexysimple span {
 	height: auto;
@@ -316,6 +376,21 @@
 .sexybutton.sexysimple.sexyxxl:active     { padding: 9px 14px 7px; }
 .sexybutton.sexysimple.sexyxxxl           { padding: 8px 14px 8px; font-size: 26px !important; }
 .sexybutton.sexysimple.sexyxxxl:active    { padding: 9px 14px 7px; }
+
+.sexybutton.sexysimple.sexysmall[disabled]:active,
+.sexybutton.sexysimple.sexysmall.disabled:active   	{ padding: 4px 7px 5px; }
+.sexybutton.sexysimple[disabled]:active,
+.sexybutton.sexysimple.disabled:active 	            { padding: 5px 10px 5px; }
+.sexybutton.sexysimple.sexymedium[disabled]:active,
+.sexybutton.sexysimple.sexymedium.disabled:active 		{ padding: 6px 10px 4px; }
+.sexybutton.sexysimple.sexylarge[disabled]:active,
+.sexybutton.sexysimple.sexylarge.disabled:active   	{ padding: 8px 14px 8px; }
+.sexybutton.sexysimple.sexyxl[disabled]:active,
+.sexybutton.sexysimple.sexyxl.disabled:active	      { padding: 8px 14px 8px; }
+.sexybutton.sexysimple.sexyxxl[disabled]:active,
+.sexybutton.sexysimple.sexyxxl.disabled:active 		   { padding: 8px 14px 8px; }
+.sexybutton.sexysimple.sexyxxxl[disabled]:active,
+.sexybutton.sexysimple.sexyxxxl.disabled:active    	{ padding: 8px 14px 8px; }
 
 
 /*
