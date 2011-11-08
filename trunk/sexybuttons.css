@@ -13,7 +13,7 @@
  * 	Richard@richarddavies.us
  * 
  * VERSION:
- * 	1.1
+ * 	1.2
  * 
  * LICENSE:
  * 	Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
@@ -28,12 +28,14 @@
  * 
  * USAGE:
  * 	Simply add class="sexybutton [skin]" to a <button> or <a> element and wrap the label text with double <span>s.
- * 	You can optionally add a "silk" icon to the button text by using a third <span> with class to identify the icon.   
+ * 	You can optionally add a "silk" icon to the button text by using a third <span> with class to identify the icon.
+ * 	Full documentation and more examples available at http://sexybuttons.googlecode.com/svn/trunk/index.html
  * 
  * EXAMPLE: 
  * 	<button id="btn1" class="sexybutton" name="btn1" type="submit" value="Submit">
  * 		<span><span><span class="ok">Submit</span></span></span>
  * 	</button>
+ * 
  */
 
 
@@ -43,6 +45,7 @@
 
 .sexybutton {
 	display: inline-block;
+	vertical-align: middle;
 	margin: 0;
 	padding: 0;
 	font: bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif !important;
@@ -91,6 +94,15 @@
 	background-position: right center;
 	/* IE6 still requires a PNG transparency fix */ 
 	/* _padding-right: 0;					Or just hide icons from the undeserving IE6 */
+}
+
+.sexybutton.sexyicononly span span span {
+	padding-left: 16px;
+}
+
+.sexybutton.sexyicononly span span span.after {
+	padding-left: 0px;
+	padding-right: 16px;
 }
 
 .sexybutton[disabled],
@@ -347,6 +359,16 @@
 	background-position: right center;
 	/* IE6 still requires a PNG transparency fix */ 
 	/* _padding-right: 0;		Or just hide icons from the undeserving IE6 */
+}
+
+.sexybutton.sexysimple.sexyicononly span {
+	height: 16px;
+	padding-left: 16px;
+}
+
+.sexybutton.sexysimple.sexyicononly span.after {
+	padding-left: 0px;
+	padding-right: 16px;
 }
 
 /* Simple button colors */
