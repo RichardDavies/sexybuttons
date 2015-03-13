@@ -21,7 +21,7 @@ The framework is focused on being simple yet flexible and strives to be as easy 
 
 ## Demo
 
-[Demo and Quick Start Guide](http://sexybuttons.googlecode.com/svn/trunk/index.html)
+[Demo and Quick Start Guide](http://richarddavies.github.io/sexybuttons/)
 
 ## Browser Support
 
