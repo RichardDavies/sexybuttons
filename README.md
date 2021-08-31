@@ -3,7 +3,7 @@ _Sexy, skinnable HTML/CSS buttons with icons._
 
 Sexy Buttons is a HTML/CSS-based framework for creating beautiful web site buttons. These stylish, attention getting buttons can be used for calls to action wherever user interaction is desired. Compare Sexy Buttons with the standard browser buttons: 
 
-![Sexy Buttons compared to default browser buttons](http://i45.tinypic.com/bgxo2w.jpg)
+![Sexy Buttons compared to default browser buttons](http://web.archive.org/web/20190903074543im_/https://camo.githubusercontent.com/465042615bdc1d2b3d50b5067c0c5c854003e283/687474703a2f2f6934352e74696e797069632e636f6d2f6267786f32772e6a7067)
 
 The framework is focused on being simple yet flexible and strives to be as easy to implement as possible.
 
@@ -39,7 +39,7 @@ Only those browsers and versions that have been tested are included above. It ve
 
 Do you really like Sexy Buttons? Have they saved you a lot of time or really benefited a project you're working on? If so, please consider supporting the project by making a donation. Thank you!
 
-[![Donate](http://i49.tinypic.com/sawm69.jpg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=10208119)
+[![Donate](http://web.archive.org/web/20190903074542im_/https://camo.githubusercontent.com/6ab5224e34a944c190012f9c16a8e8db33b8ecd7/687474703a2f2f6934392e74696e797069632e636f6d2f7361776d36392e6a7067)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=10208119)
 
 ## Credits
 
