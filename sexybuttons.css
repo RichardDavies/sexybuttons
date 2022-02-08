@@ -5,11 +5,11 @@
  * 	Sexy, skinnable HTML/CSS buttons with icons.
  * 
  * PROJECT URL: 
- * 	http://code.google.com/p/sexybuttons/
+ * 	https://github.com/RichardDavies/sexybuttons
  * 
  * AUTHOR:
  * 	Richard Davies
- * 	http://www.richarddavies.us
+ * 	https://www.richarddavies.us
  * 	Richard@richarddavies.us
  * 
  * VERSION:
@@ -29,7 +29,7 @@
  * USAGE:
  * 	Simply add class="sexybutton [skin]" to a <button> or <a> element and wrap the label text with double <span>s.
  * 	You can optionally add a "silk" icon to the button text by using a third <span> with class to identify the icon.
- * 	Full documentation and more examples available at http://sexybuttons.googlecode.com/svn/trunk/index.html
+ * 	Full documentation and more examples available at https://github.com/RichardDavies/sexybuttons
  * 
  * EXAMPLE: 
  * 	<button id="btn1" class="sexybutton" name="btn1" type="submit" value="Submit">

@@ -1,6 +1,6 @@
 ==================================================
   Sexy Buttons Changelog
-  http://code.google.com/p/sexybuttons/
+  https://github.com/RichardDavies/sexybuttons
 ==================================================
 
 
